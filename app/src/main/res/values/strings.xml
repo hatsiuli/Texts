@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Texts</string>
+    <string name="gotherInput">gother input</string>
+    <string name="name">name</string>
+    <string name="sth">say something</string>
+    <string name="num">type a number</string>
+    <string name="email">type your e-mail</string>
+    <string name="phone">what\'s your number?</string>
+    <string name="pwd">password</string>
 </resources>
