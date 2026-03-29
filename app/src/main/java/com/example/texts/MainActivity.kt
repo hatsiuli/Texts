@@ -24,6 +24,9 @@ class MainActivity : AppCompatActivity() {
         val txt = findViewById<EditText>(R.id.editTextText)
         val num = findViewById<EditText>(R.id.editTextNumber)
         val auto = findViewById<EditText>(R.id.autoCompleteTextView)
+        val eml = findViewById<EditText>(R.id.editTextTextEmailAddress)
+        val phn = findViewById<EditText>(R.id.editTextPhone)
+        val pwd = findViewById<EditText>(R.id.editTextTextPassword)
         val btn = findViewById<Button>(R.id.button)
 
         btn.setOnClickListener {
@@ -31,10 +34,13 @@ class MainActivity : AppCompatActivity() {
             val ns = num.text.toString().trim()
             var n:Int = ns.toInt()
             n *= 2
-
             val a = auto.text.toString()
+            val e=eml.text.toString()
+            val ph=phn.text.toString()
+            val p=pwd.text.toString()
 
-            lbl.text = "$t$n$a"
+
+            lbl.text = "$t$n$a$e$ph$p"
 
         }
 
